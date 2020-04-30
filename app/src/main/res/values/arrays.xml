@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_array">name_array>
+        <item>Erix</item>
+        <item>Javier</item>
+        <item>Pedro</item>
+        <item>Luis</item>
+    </string-array>
+</resources>

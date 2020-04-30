@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+
+    <TextView
+        android:id="@+id/tvSelectName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_text_select_theme" />
+
+    <Spinner
+        android:id="@+id/spName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvSelectName"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/tvSelectName"
+        android:entries="@array/theme_array"
+        android:spinnerMode="dropdown" />
+
+    <RelativeLayout
+        android:id="@+id/rlTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSelectName" >
+
+        <TextView
+            android:id="@+id/tvCredentials"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_text_credentials" />
+        <EditText
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvCredentials"
+            android:hint="@string/settings_text_description_hint"
+            android:inputType="text"
+            android:lines="1"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/tvPlannedDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDescription"
+            android:inputType="date"
+            android:focusable="false"
+            android:clickable="true"
+            android:lines="1" />
+
+        <Button
+            android:id="@+id/btnClearData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPlannedDate"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="163dp"
+            android:layout_marginLeft="163dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="160dp"
+            android:layout_marginRight="160dp"
+            android:text="@string/settings_text_clear_data" />
+
+    </RelativeLayout>
+    </RelativeLayout>

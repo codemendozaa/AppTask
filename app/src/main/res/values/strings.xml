@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AppTask</string>
+
+    <string name="click_me">Click Me</string>
+    <string name="zero">0</string>
+    <string name="one">one</string>
+    <string name="two">two</string>
+    <string name="three">three</string>
+    <string name="home">Home</string>
+    <string name="task">Task</string>
+    <string name="user">User</string>
+    <string name="likes">Likes !</string>
+    <string name="clicks">Visits !</string>
+    <string name="settings_text_select_theme">Select Name:</string>
+    <string name="settings_text_credentials">Create Task</string>
+    <string name="settings_text_description_hint">description</string>
+    <string name="settings_text_clear_data">save</string>
+
+</resources>
