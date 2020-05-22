@@ -26,15 +26,15 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initListeners()
+//        initListeners()
     }
 
-    private fun initListeners() {
+   /* private fun initListeners() {
         binding.likeLogo.setOnClickListener {
             count++
             binding.tvLikeCount.text = "$count"
 
         }
     }
-
+*/
 }

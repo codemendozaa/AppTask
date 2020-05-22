@@ -29,10 +29,10 @@ class UserFragment : Fragment() {
     }
 
     private fun initListeners() {
-      binding.clickLogo.setOnClickListener {
+   /*   binding.clickLogo.setOnClickListener {
             count++
             binding.tvLikeCount.text = "$count"
-        }
+        }*/
     }
 
 }

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="theme_array">name_array>
+        <item>Seleccionar</item>
         <item>Erix</item>
         <item>Javier</item>
         <item>Pedro</item>

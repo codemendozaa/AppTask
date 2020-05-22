@@ -22,18 +22,10 @@ class BottomSheetFragment : BottomSheetDialogFragment() {
         super.onViewCreated(view, savedInstanceState)
 
         tvPlannedDate.setOnClickListener{
-            showDatePickerDialog()
+
         }
     }
 
-    private fun showDatePickerDialog() {
-        val newFragment = DatePickerFragment.newInstance(DatePickerDialog.OnDateSetListener { _, year, month, day ->
-            // +1 because January is zero
-            val selectedDate = day.toString() + " / " + (month + 1) + " / " + year
-         //   etBirthDate.setText(selectedDate)
-        })
 
-        newFragment.show((activity as AppCompatActivity).supportFragmentManager, "datePicker")
-    }
 }
 

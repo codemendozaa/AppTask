@@ -40,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tvCredentials"
-            android:hint="@string/settings_text_description_hint"
+            android:hint="@string/description_hint"
             android:inputType="text"
             android:lines="1"
             android:autofillHints="" />
